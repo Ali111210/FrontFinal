@@ -1,0 +1,108 @@
+/* src/pages/Header.css */
+.header {
+  background-color: #111; 
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo{
+  padding-left: 30px;
+}
+
+.header-center {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.home-btn {
+  background: none;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.home-btn:hover {
+  text-decoration: underline;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+}
+
+.search-form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px; 
+  height: 40px; 
+}
+
+.search-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 40px;
+}
+
+.search-form button:hover {
+  background-color: #444;
+}
+
+.logout-btn {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+}
+
+.logout-btn:hover {
+  background-color: #555;
+}
+
+.profile-btn {
+  background: none;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-btn:hover {
+  text-decoration: underline;
+}

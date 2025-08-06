@@ -1,0 +1,19 @@
+/* src/App.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #f1f1f1 !important;  
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+main {
+  background-color: #f4f4f4; 
+}

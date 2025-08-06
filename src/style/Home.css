@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.vacancy-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.vacancies-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.vacancy-item {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.vacancy-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.vacancy-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.btn-apply, .btn-contact {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-apply {
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-contact {
+  background-color: #6c757d;
+  color: white;
+  border-radius: 4px;
+}

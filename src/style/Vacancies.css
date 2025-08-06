@@ -1,0 +1,22 @@
+.vacancies-section {
+  padding: 20px;
+}
+
+.vacancy-card {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.vacancy-btn {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.vacancy-btn:hover {
+  background-color: #2563eb;
+}
