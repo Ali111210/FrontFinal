@@ -22,7 +22,7 @@ export default function Register() {
     }
 
     try {
-      const res = await axios.post('http://localhost:3002/api/register', {
+      const res = await axios.post('https://backfinal-5xst.onrender.com/api/register', {
         email, password
       });
       alert('Тіркелу сәтті өтті!');

@@ -5,6 +5,7 @@ import axios from 'axios';
 import '../style/Login.css';
 import workerImage from '../assets/worker-human2.png';
 
+
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -18,7 +19,7 @@ export default function Login() {
     setError('');
 
     try {
-      const res = await axios.post('http://localhost:3002/api/login', { email, password });
+      const res = await axios.post('https://backfinal-5xst.onrender.com/api/login ', { email, password });
       alert('Сәтті кірдіңіз!');
       console.log(res.data);
 
